@@ -1,0 +1,33 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Books</h1>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col"> STT</th>
+      <th scope = "col">  idStudent </th>
+      <th scope = "col">  fullname </th>
+      <th scope = "col">  standard </th>
+      <th scope = "col">  idBook </th>
+      <th scope = "col">  author </th>
+      <th scope = "col">  bookType </th>
+      <th scope = "col">  NumBM </th>
+      <th scope = "col">  dateBegin </th>
+      <th scope = "col">  dateEnd </th>
+      <th scope = "col">  total </th>
+      <th scope = "col"> action </th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <div id="books">
+      <% @books.each_with_index do |book, index| %>
+        <%= render book, index:index %>
+      <% end %>
+    </div>
+
+    <%= link_to "New book", new_book_path %>  
+  </tbody>
+</table>
+

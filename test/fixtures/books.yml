@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idStudent_260: MyString
+  fullname_260: MyString
+  standard_260: MyString
+  idBook_260: MyString
+  author_260: MyString
+  bookType_260: MyString
+  NumBM_260: MyString
+  dateBegin_260: 2022-11-04
+  dateEnd_260: 2022-11-04
+  totalDate: 1
+
+two:
+  idStudent_260: MyString
+  fullname_260: MyString
+  standard_260: MyString
+  idBook_260: MyString
+  author_260: MyString
+  bookType_260: MyString
+  NumBM_260: MyString
+  dateBegin_260: 2022-11-04
+  dateEnd_260: 2022-11-04
+  totalDate: 1
